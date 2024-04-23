@@ -1,16 +1,16 @@
+<!DOCTYPE html>
+<html lang="es">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
     <!-- Links -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="/src/css/contacto.css">
 </head>
 <body>
-<!-- Bootstrap CSS -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet">
-
-
 <!-- Navbar -->
-
+<header>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
         <a class="navbar-brand" href="/src/pages/index.html">Marketplace Alpha</a>
@@ -32,15 +32,46 @@
         </div>
     </div>
 </nav>
-
-<main>
-
-
-<section>
+</header>
+<main style="margin-top: 80px; margin-bottom: 80px;">
+    <div class="container">
+        <h1>Contacto</h1>
+        <p>¡Bienvenido a nuestro marketplace de tecnología! Estamos aquí para responder a tus preguntas, resolver tus dudas y ayudarte en lo que necesites. ¡No dudes en contactarnos!</p>
+        
+        <h2>Información de contacto</h2>
+        <ul>
+            <li><strong>Dirección de la oficina central:</strong> Avenida Boyaca, Calle #12 C bis B #64-12.</li>
+            <li><strong>Teléfono de atención al cliente:</strong> 310 586 6868</li>
+            <li><strong>Correo electrónico de contacto general:</strong> <a href="mailto:contacto@mitiendatech.com">contacto@marketplace-alpha.com</a></li>
+            <li><strong>Correo electrónico de soporte técnico:</strong> <a href="mailto:soporte@mitiendatech.com">soporte@marketplace-alpha.com</a></li>
+        </ul>
+        
+        <h2>Horario de atención</h2>
+        <p>Lunes a Viernes: 9:00 AM - 6:00 PM (Hora local)</p>
+        
+        <h2>Formulario de contacto</h2>
+        <form action="#" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br>
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required><br>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br>
+            <input type="submit" value="Enviar mensaje">
+        </form>
+        
+        <h2>Redes sociales</h2>
+        <ul class="social">
+            <li><a href="[Enlace a la página de Facebook]">Facebook</a></li>
+            <li><a href="[Enlace al perfil de Twitter]">Twitter</a></li>
+            <li><a href="[Enlace al perfil de Instagram]">Instagram</a></li>
+        </ul>
+        
+        <p style="text-align: center;">¡Gracias por elegirnos como tu destino de tecnología!</p>
+    </div>
+</main>
 <footer class="bg-dark text-light text-center py-4 mt-5">
-    <section>
     <p>&copy; 2024 Marketplace Alpha. Todos los derechos reservados.</p>
-    </section>
 </footer>
 
 <!-- Bootstrap Bundle with Popper -->
